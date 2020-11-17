@@ -1,5 +1,7 @@
 numeri = [2,, 5, 8, 3]
-def somma():
+def somma(numeri):
     totale = 0
-    for x in numeri
-    total += x 
+    for item in numeri:
+        total += item 
+    return totale
+print("Totale: {}".format(somma(numeri)))
